@@ -30,7 +30,7 @@ function flyToElement(flyer, flyingTo) {
 $(document).ready(function(){
 
 
-
+	$('.dropdown-toggle').dropdown()
 	//Carousel
 	$(".main-slider").owlCarousel({
 	 	items : 1,
@@ -89,14 +89,14 @@ $(document).ready(function(){
 	
 	// Do our DOM lookups beforehand
 
-  $('.main-nav').waypoint({
-    handler: function(event) {
-      	$('.container-head').toggleClass('sticky');
-      	$('.owl-wrapper-outer').toggleClass('dn');
-      	$('.owl-pagination').toggleClass('hidden');
+  // $('.main-nav').waypoint({
+  //   handler: function(event) {
+  //     	$('.container-head').toggleClass('sticky');
+  //     	$('.owl-wrapper-outer').toggleClass('dn');
+  //     	$('.owl-pagination').toggleClass('hidden');
 
-    },offset: -250
-  });
+  //   },offset: -250
+  // });
 
   setTimeout(function(){
 
