@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+@@include('head.html') 
+</head>
+<body>
+
+<div class="container-head">
+	<!-- header -->
+	@@include('top-menu-color.html')
+	<!-- header -->
+
+	<!-- slider -->
+	@@include('slider.html') 
+	<!-- slider -->
+
+	<!-- main-nav -->
+	@@include('navigation.html') 
+	<!-- main-nav --> 
+</div>
+
+
+<div class="content container">
+	<div class="row content-row">
+		<!-- content-left -->
+		<div class="content-left col-lg-9 col-md-9  col-sm-12 ">
+			<div class="bonus-title ">Спасибо за заказ, василий!</div>
+			<div class="bonus-title-childrenText">Наш менеджер свяжется с Вами для уточнения деталей заказа</div>
+		 
+		 <div class="bonus-cont">
+		 	<!-- bonus-cont-left -->
+		 	<div class="col-md-6 col-sm-6 ">
+		 		<div class="bonus-cont-left">
+		 			<div class="bonus-cont-left-text">вам <br> начислено</div>
+		 			<div class="bonus-value">
+		 				<div class="bonus-value-info">
+		 					<div class="bonus-value-info-numb">150</div>
+		 					<div class="bonus-value-info-text">Баллов</div>
+		 				</div>
+		 				<img src="img/MergedLayers.png" alt="">
+		 			</div>
+		 		</div>
+		 	</div>
+		 	<!-- bonus-cont-left -->
+
+		 	<!-- bonus-cont-right -->
+		 	<div class="col-md-6 col-sm-6 ">
+		 		<div class="bonus-cont-right">
+			 		<div class="bonus-cont-right-title">Как получить ?</div>
+			 		<div class="bonus-cont-right-text">Для завершения регистрации <br> введите e-mail и пароль</div>
+
+	   
+			 		<form class="bonus-cont-right-form" action="" method="POST" role="form">
+			 			<input type="text" class="form-control" id="" placeholder="Ваше имя">
+			 			<input type="text" class="form-control" id="" placeholder="Ваш телефон">
+			 			<input type="text" class="form-control" id="" placeholder="Ваш e-mail">
+			 			<input type="text" class="form-control" id="" placeholder="Пароль">
+			 			<input type="text" class="form-control" id="" placeholder="Подтверждение пароля">
+			 			<button type="submit" class="btn btn-primary">Зарегистрироваться</button>
+			 		</form>
+
+				</div>
+		 	</div>
+		 	<!-- bonus-cont-right -->
+		 </div>
+			
+			
+		</div>
+		<!-- content-left -->
+
+		<!-- content-right -->
+		@@include('right-col.html')
+		<!--/ content-right -->
+	</div>
+</div>
+
+<!-- footer -->
+@@include('footer.html')	
+<!--/ footer -->
+
+@@include('script.html') 
+</body>
+</html>
+
+
+
