@@ -89,15 +89,15 @@ $(document).ready(function(){
 	
 	// Do our DOM lookups beforehand
 
-  // $('.main-nav').waypoint({
-  //   handler: function(event) {
-  //     	$('.container-head').toggleClass('sticky');
-  //     	$('.owl-wrapper-outer').toggleClass('dn');
-  //     	$('.owl-pagination').toggleClass('hidden');
-
-  //   },offset: -250
-  // });
-
+  $('.main-nav').waypoint({
+    handler: function(event) {
+      	/*$('.container-head').toggleClass('sticky');
+      	$('.owl-wrapper-outer').toggleClass('dn');
+      	$('.owl-pagination').toggleClass('hidden');*/
+				$('.contaner-slider').toggleClass('dn');
+    },offset: 200
+  });
+ $('.container-head').sticky();
   setTimeout(function(){
 
   	// ######### auth #########
@@ -134,7 +134,7 @@ $(document).ready(function(){
 		//######### registration #########
 
   	
-  },3000)
+  },2000)
   
 	
 })

@@ -1009,10 +1009,13 @@ ul {
 }
 .container-head {
   position: relative;
+  background: #fff;
 }
 .header-row {
-  background: #fff;
   padding-bottom: 20px;
+  z-index: 4000;
+  position: relative;
+  margin-bottom: -15px;
 }
 .sticky {
   position: fixed;
@@ -2164,6 +2167,10 @@ input:-ms-input-placeholder {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding-top: 20px;
+}
+.sticky-wrapper {
+  z-index: 10000;
+  position: relative;
 }
 @-webkit-keyframes pulse {
   0% {
