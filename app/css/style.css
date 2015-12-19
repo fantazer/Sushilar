@@ -1016,6 +1016,7 @@ ul {
   z-index: 4000;
   position: relative;
   margin-bottom: -15px;
+  background: #fff;
 }
 .sticky {
   position: fixed;
